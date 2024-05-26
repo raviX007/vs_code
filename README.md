@@ -9,6 +9,16 @@ The AI Chat Extension is a Visual Studio Code extension that allows you to have 
 - Responsive design for optimal viewing experience
 - Customizable API key and model settings
 
+## Building your extension
+
+- For building your extension go to your project folder and enter the command:
+```
+npx --package yo --package generator-code -- yo code
+```
+- Before publishing your extension you will need to generate access tokens and publisher, please refer to link below to do so:
+  
+ https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+ 
 ## Getting Started
 
 1. Install the AI Chat Extension from the Visual Studio Code Marketplace.
